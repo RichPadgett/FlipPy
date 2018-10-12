@@ -1,0 +1,91 @@
+=================================================================================================
+-------------------------------User Manual For FLIP-PyGifAnimator--------------------------------=================================================================================================
+
+System Requirements: 
+**install on linux with < sudo apt-get install > <package name>
+These are the required packages/programs
+
+	sudo apt-get install python
+	sudo apt-get install python-tk
+	sudo apt-get install python-imaging-tk
+	sudo apt-get install gedit
+	sudo apt-get install eog
+	sudo apt-get install imagemagick
+
+
+Program Features.
+
+I. Main Menu Bar / Panel (Top Left)
+
+	1. File - Menu to Control Opening Images in FLIP-Py
+
+		a. Load - Select Directories that Contain Desired Images and click Ok
+
+		b. Load Intro - Replay / Open the FLIP-Py Intro Gif
+
+    		c. User Guide - Open this Document in Gedit: else Browse to Include folder & open
+
+		d. Kill - Kill the Program without saving Frame Rate or last Opened FlipBook
+
+
+
+	2. Convert - Menu to Control Image Magic Options
+
+		a. File Type - Convert Entire Flip Book to New Format and Save in New Folder
+
+		b. Resize - Resize entire Flip Book and save in new folder
+
+		c. Re-Sketch - Apply a Transformation to Entire FlipBook and Save in New Folder
+
+		d. Generate - Convert Entire FlipBook Of Images into One Animated Gif File
+
+
+
+
+II. Motion Control Panel (Bottom Left)	
+	
+	1. Play - Play the Selected FlipBook
+
+	2. Loop/NoLoop - Loop = Repeat the FlipBook; NoLoop = Play FlipBook Once
+
+	3. Stop - Stop Flip Book
+
+	4. Step Left - Move to Previous FlipBook Frame
+
+	5. Step Right - Move to Next FlipBook Frame
+
+
+
+
+III. Refresh Rate Display and Control Panel (Bottom Right)
+	
+	1. Refresh Rate Indicator - Display How Fast the Flip Book Will be Playing
+
+	2. Refresh Rate Selector - Key in and Press Enter Or Cycle Through Refresh Rate
+		a. 0.000 = No Delay in FlipBook Animation From Page to Page
+		b. 0.001 = Refresh FlipBook Page Every Thousandth of a second
+		c. 0.010 = Refresh FlipBook Page Every Hundredth of a second
+		d. 0.100 = Refresh FlipBook Page Every Tenth of a second
+		e. 0.500 = Refresh FlipBook Page Every Half second
+		f. 1.000 = Refresh FlipBook Page Every Second
+
+
+IV. To Create a FlipBook 
+	
+	1. Load in Images to desired Folder in the FlipBook Program Folder
+
+	2. Open the Folder through the Program File Browser 
+		a.  File -> Load -> Flipbooks -> <your folder>
+
+	3. Perform Any Image Magic Resizing, Re-sketching, FileType Converting
+
+	4. Generate a FlipBook Animation - (Ensure your Book Has Been Converted to .GIF)
+	      **a.  If Needed - Convert -> FileType -> GIF
+		b.  Convert -> Generate -> GIFAnimation File
+		c.  Use your New Animation File Wherever You want! Blogs, Websites, Texts, Forums!
+
+
+
+V. Thank You For Using FLIP-Py GIFAnimator !
+		
+

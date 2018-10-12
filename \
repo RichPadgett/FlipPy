@@ -1,0 +1,43 @@
+import os,sys
+import Tkinter as tk
+import tkMessageBox as tm
+import model 
+import view
+import subprocess as sb
+import fnmatch as fn
+import time
+from PIL import ImageTk
+import tkFileDialog
+
+
+class Controller(object):
+  def __init__(self, dir):
+    self.model = model.Model(dir)
+    self.view = view.View(self)
+    
+  def stepLt(self):
+    print self.view.progBar.step(-5)
+    
+
+  def stepRt(self):
+    self.view.progBar.step(1.5)
+
+  def load(self):
+    print "Loading Gif Folder"
+    dirname = tkFileDialog.askdirectory()
+    self.model.loadGiffy(dirname)
+
+  def frameRate(self):
+    print "Setting Frame Rate"
+    
+  def play(self):
+    print "Play Gif"
+
+  def stop(self):
+    print "Stop Gif"
+
+
+if __name__ == "__main__":
+  c = Controller("Test")
+  print "model is: ", c.model
+  print "view is:  ", c.view
